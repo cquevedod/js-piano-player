@@ -8,7 +8,7 @@ In order to design the piano, a three parts approach was defined: structure (HTM
 
 ## HTML
 
-First the piano was performed in the form of a list, where each "<li>" label corresponds to a piano key. This piano is made up of two octaves, what means, two sections of twelve keys, seven white keys and five black keys in each octave. The sections were duly separated at the code level, which facilitates their readability.
+First the piano was performed in the form of a list, where each '<li>' label corresponds to a piano key. This piano is made up of two octaves, what means, two sections of twelve keys, seven white keys and five black keys in each octave. The sections were duly separated at the code level, which facilitates their readability.
 
 Then the references to the audio samples in the **[index.html](index.html)** file were preloaded.
 
