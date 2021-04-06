@@ -1,0 +1,76 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "quotes": [2, "single", "avoid-escape"],
+        "semi": "error",
+        "comma-style": "error",
+        "prefer-const": "error",
+        "no-const-assign": "error",
+        "no-var": "error",
+        "newline-per-chained-call": "error",
+        "no-whitespace-before-property": "error",
+        "no-array-constructor": "error",
+        "prefer-destructuring": ["error", {
+            "array": true,
+            "object": true
+          }, {
+            "enforceForRenamedProperties": false
+          }],
+        "no-eval": "error",
+        "func-style": ["error", "expression"],
+        "no-loop-func": "error",
+        "prefer-rest-params": "error",
+        "no-new-func": "error",
+        "space-before-blocks": ["error", { 
+            "functions": "always",
+            "keywords": "always",
+            "classes": "always" 
+        }],
+        "no-param-reassign": "error",
+        "arrow-spacing": "error",
+        "no-confusing-arrow": "error",
+        "no-duplicate-imports": ["error", {
+            "includeExports": true 
+        }],
+        "no-plusplus": ["error", { 
+            "allowForLoopAfterthoughts": true 
+        }],
+        "max-len": ["error", { "code": 80 }],
+        "no-nested-ternary": "error",
+        "no-unneeded-ternary": "error",
+        "no-mixed-operators": "error",
+        "nonblock-statement-body-position": ["error", "beside"],
+        "brace-style": "error",
+        "spaced-comment": ["error",
+            "always",
+            { "markers": ["/"] }
+        ],
+        "keyword-spacing": ["error", { "before": true }],
+        "space-infix-ops": "error",
+        "padded-blocks": ["error", { 
+            "blocks": "never",
+            "classes": "always"
+        }],
+        "space-in-parens": ["error", "never"],
+        "array-bracket-spacing": ["error", "never"],
+        "object-curly-spacing": ["error", "always"],
+        "no-new-wrappers": "error",
+        "id-length": ["error", {
+            "min": 2,
+            "properties": "never" 
+        }],
+        "camelcase": ["error", {
+            "properties": "never"
+        }]
+    }
+}
